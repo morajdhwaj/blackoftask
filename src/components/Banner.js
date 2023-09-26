@@ -2,17 +2,15 @@ import React from 'react';
 
 const Banner = () => {
   return (
-    <div className='text-white mx-52 flex my-28'>
-      <div className='w-1/2 mx-20 mt-20'>
-        <h3 className='text-[50px] font-light'>
+    <div className='  xl:m-10    2xl: text-white 2xl:mx-52 2xl:my-28 2xl:flex flex-row'>
+      <div className=' w-100%  xl:w-1/2 mx-20 mt-20 '>
+        <h3 className='text-[50px] font-light 2xl:mr-32'>
           Searching for
           <span className='font-medium'>Augmented Development</span> Teams to
-          <br />
-          steer your product
-          <br /> towards triumph?"
+          steer your product towards triumph?"
         </h3>
-        <div className='flex'>
-          <div className='w-3/12'>
+        <div className='sm:flex'>
+          <div className='w-3/12 '>
             <h2 className='text-[30px] font-semibold'>50+</h2>
             <p className='text-gray-400'>Clients</p>
           </div>
@@ -28,7 +26,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className='w-1/2 text-black'>
+      <div className='mt-5 2xl:w-1/2 text-black 2xl:mt-0'>
         <div className=' bg-gradient-to-t from-gray-300 to-gray-200 px-5 py-10 w-10/12 rounded-xl '>
           <div>
             <h4 className='text-xl font-semibold'>Fill out the form</h4>
